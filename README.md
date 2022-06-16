@@ -10,5 +10,16 @@ Then open the code the in your IDE and add the video name int the variable "vide
 Finally run the code. A pop up ascified video will appear. 
 To close the video you need to press "f" in your keyboard.
 
-##Working of the code
+## Working of the code
 
+
+
+Images are stored in computers as 2D rectangular arrays of Pixels.Each pixel contains a value from 0(black) to 255(white). These numbers repesent different shades of gray.
+The project is done in pyhton.
+PILLOW and Open-cv libraries hase been used in this project
+
+
+Firstly cv2(open-cv),ImageDraw,ImageFont,Image(PIL) and numpy has been imported. Then the characters that need to been shown in the image has been stored in the variable, which further has been added to the list .
+
+## My Learnings from the Project
+From the project i got to know about the pixels and the value associated with them of the images and also got to know that the characters can be mapped to different values of rgb
