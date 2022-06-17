@@ -33,3 +33,14 @@ From the project i got to know about the pixels and the value associated with th
 
 ## Description of the additional task(ASCIIFY VIDEOS)
 Videos are the collection of images(frames) , so in this project I have converted ascii art frame by frame . To read the video cv2.VideoCapture(video_name) is used.
+
+## Video Demo
+
+
+
+https://user-images.githubusercontent.com/94849855/174354251-47569d76-bb19-4610-acea-44a924dd126f.mp4
+
+
+
+
+
