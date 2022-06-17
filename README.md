@@ -41,6 +41,10 @@ Videos are the collection of images(frames) , so in this project I have converte
 https://user-images.githubusercontent.com/94849855/174354251-47569d76-bb19-4610-acea-44a924dd126f.mp4
 
 
-
+##  Resources/References Used
+1. ACM Discussions
+2. https://yuukidach.github.io/2020/02/19/practice/image-to-asciiart/
+3. https://medium.com/analytics-vidhya/the-ultimate-handbook-for-opencv-pillow-72b7eff77cd7
+4. and some youtube videos to understand the working of r,g,b values and characters
 
 
