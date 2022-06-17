@@ -12,14 +12,17 @@ To close the video you need to press "f" in your keyboard.
 
 ## Working of the code
 
-
-
-Images are stored in computers as 2D rectangular arrays of Pixels.Each pixel contains a value from 0(black) to 255(white). These numbers repesent different shades of gray.
+Images are stored in computers as 2D rectangular arrays of Pixels.Each pixel contains a value from 0(black) to 255(white). These numbers represent different shades of gray.
 The project is done in pyhton.
-PILLOW and Open-cv libraries hase been used in this project
+PILLOW and Open-CV(cv2) libraries hase been used in this project.
 
+Firstly cv2(open-cv),ImageDraw,ImageFont,Image(PIL) and numpy has been imported. Then the characters that need to been shown in the image has been stored in the variable, which further has been added to the list . These characters got assigned some values based on there index.
 
-Firstly cv2(open-cv),ImageDraw,ImageFont,Image(PIL) and numpy has been imported. Then the characters that need to been shown in the image has been stored in the variable, which further has been added to the list .
+As I have used videos in this project , cv2.VideoCapture(video_name) is used to read the video frame by frame.  Each image(frame) is resized based on the scale factor and char_height , char_width .A new image is formed using the new width and height values and initializing it with  black color.
+
+After resizing we go on each and every (i,j)th index of the image(frame) and convert the r,g,b values to a single grayscale value(0-255).
+This grayscale value is used to call the character from the list based on the value.
+This process will continue till each and every image(frame) is converted to ascii art.
 
 ## My Learnings from the Project
-From the project i got to know about the pixels and the value associated with them of the images and also got to know that the characters can be mapped to different values of rgb
+From the project i got to know about the pixels and the value associated with them of the images and also got to know that the characters can be mapped to different values of rgb.
