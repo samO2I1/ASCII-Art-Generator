@@ -16,13 +16,20 @@ Images are stored in computers as 2D rectangular arrays of Pixels.Each pixel con
 The project is done in pyhton.
 PILLOW and Open-CV(cv2) libraries hase been used in this project.
 
+Font used is DejaVuSansMono.
+
 Firstly cv2(open-cv),ImageDraw,ImageFont,Image(PIL) and numpy has been imported. Then the characters that need to been shown in the image has been stored in the variable, which further has been added to the list . These characters got assigned some values based on there index.
 
 As I have used videos in this project , cv2.VideoCapture(video_name) is used to read the video frame by frame.  Each image(frame) is resized based on the scale factor and char_height , char_width .A new image is formed using the new width and height values and initializing it with  black color.
 
 After resizing we go on each and every (i,j)th index of the image(frame) and convert the r,g,b values to a single grayscale value(0-255).
 This grayscale value is used to call the character from the list based on the value.
+Then cv2.imshow() is used to display the frames.
 This process will continue till each and every image(frame) is converted to ascii art.
+
 
 ## My Learnings from the Project
 From the project i got to know about the pixels and the value associated with them of the images and also got to know that the characters can be mapped to different values of rgb.
+
+## Description of the additional task(ASCIIFY VIDEOS)
+Videos are the collection of images(frames) , so in this project I have converted ascii art frame by frame . To read the video cv2.VideoCapture(video_name) is used.
