@@ -29,7 +29,7 @@ This process will continue till each and every image(frame) is converted to asci
 
 
 ## My Learnings from the Project
-From the project i got to know about the pixels and the value associated with them of the images and also got to know that the characters can be mapped to different values of rgb.
+From the project I got to know about the pixels and the value associated with them of the images and also got to know that the characters can be mapped to different values of rgb.
 
 ## Description of the additional task(ASCIIFY VIDEOS)
 Videos are the collection of images(frames) , so in this project I have converted ascii art frame by frame . To read the video cv2.VideoCapture(video_name) is used.
